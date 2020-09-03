@@ -1,20 +1,7 @@
 #include<bits/stdc++.h>
+#include "stringParse.h"
 using namespace std;
 
-vector<string> stringParse(string s, string d){
-    vector<string> ans;
-    size_t curr = 0, next;
-    string token;
-
-    do{
-        next = s.find(d, curr);
-        token = s.substr(curr, next - curr);
-        curr = next + d.length();
-        ans.push_back(token);
-    } while (next!=string::npos);
-
-    return ans;
-}
 
 int main(){
 

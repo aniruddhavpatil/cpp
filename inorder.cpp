@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include<iostream>
+#include<algorithm>
+#include <vector>
 #include "BST.h"
 #include "stringParse.h"
 using namespace std;

@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <vector>
 using namespace std;
 #ifndef STRING_PARSE_H
 #define STRING_PARSE_H
